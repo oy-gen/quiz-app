@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(59, 62, 110);
+  height: 80px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+}
+.nav--top {
+  margin: 10px 10px 0 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.nav--bottom {
+  margin: 0px 10px 10px 10px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
