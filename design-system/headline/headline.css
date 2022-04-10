@@ -17,6 +17,7 @@ h2 {
   font-family: "Alex Brush", cursive;
   font-size: 120px;
   color: rgb(147, 158, 255);
+  margin-top: -20px;
 }
 .question {
   background-color: rgb(255, 255, 255);
@@ -46,6 +47,6 @@ h2 {
     font-family: "Alex Brush", cursive;
     font-size: 180px;
     color: rgb(147, 158, 255);
-    margin-top: -50px;
-}
+    margin-top: -40px;
+  }
 }

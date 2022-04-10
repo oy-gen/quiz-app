@@ -1,11 +1,14 @@
+* {
+  _outline: 1px solid red;
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   background-color: rgba(59, 62, 110, 0.901);
-  padding: 20px;
   text-align: center;
   box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.353);
 }
@@ -20,14 +23,26 @@
   z-index: 1;
 }
 
- .nav--bottom {
-  margin: 0 0 15px 0;
+.nav--bottom {
   position: fixed;
-  bottom: 0;
+  bottom: 15px;
   left: 0;
   right: 0;
   z-index: 1;
 }
+
+.nav-icon {
+  height: 40px;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  max-width: 170px;
+  padding: 20px 0;
+}
+
 @media (min-width: 800px) {
   .nav--top {
     height: 140px;
