@@ -4,27 +4,32 @@
   justify-content: space-around;
   align-items: center;
   gap: 20px;
-  background-color: rgb(59, 62, 110);
-  height: 80px;
+  background-color: rgba(59, 62, 110, 0.901);
   padding: 20px;
   text-align: center;
-  box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.22);
-  border-radius: 20px;
+  box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.353);
 }
+
 .nav--top {
-  margin: 10px 10px 0 10px;
+  margin: 30px 0 0 0;
   position: fixed;
+  height: 100px;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1;
 }
-.nav--bottom {
-  margin: 0px 10px 10px 10px;
+
+ .nav--bottom {
+  margin: 0 0 15px 0;
   position: fixed;
   bottom: 0;
-  z-index: 1;
   left: 0;
   right: 0;
   z-index: 1;
+}
+@media (min-width: 800px) {
+  .nav--top {
+    height: 140px;
+  }
 }

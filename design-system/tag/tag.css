@@ -1,0 +1,15 @@
+.tag-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+
+.tag {
+  background-color: rgb(147, 158, 255);
+  padding: 10px 20px;
+  border: 1px solid rgb(123, 89, 89);
+  border-radius: 5px;
+}

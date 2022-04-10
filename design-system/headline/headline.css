@@ -1,0 +1,51 @@
+h1 {
+  margin-top: calc(-120px / 3);
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: beige;
+}
+
+h2 {
+  margin: -10px 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgb(119, 119, 119);
+}
+
+.h1-handwriting {
+  font-family: "Alex Brush", cursive;
+  font-size: 120px;
+  color: rgb(147, 158, 255);
+}
+.question {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-family: Poppins;
+  font-size: 22px;
+  color: rgb(87, 85, 85);
+}
+
+.answer {
+  background-color: rgb(226, 226, 221);
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-family: Poppins;
+  font-size: 22px;
+  color: rgb(87, 85, 85);
+  visibility: hidden;
+}
+
+@media (min-width: 800px) {
+  .h1-handwriting {
+    font-family: "Alex Brush", cursive;
+    font-size: 180px;
+    color: rgb(147, 158, 255);
+    margin-top: -50px;
+}
+}
