@@ -13,10 +13,18 @@
 }
 
 .card__bookmark {
-  width: 70px;
+  background-image: url("/images/lesezeichen-96.png ");
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  background-position: center;
   position: absolute;
-  top: -1.5rem;
+  top: -1.3rem;
   right: 2rem;
+}
+
+.card__bookmark--set {
+  background-image: url("/images/lesezeichen-96\ white.png ");
 }
 
 h2 {
@@ -38,7 +46,7 @@ h2 {
 }
 
 .card__answer {
-  background-color: rgb(226, 226, 221);
+  background-color: rgba(255, 255, 255, 0.542);
   text-align: center;
   padding: 10px 15px;
   border-radius: 5px;
@@ -46,6 +54,10 @@ h2 {
   font-family: Poppins;
   color: rgb(87, 85, 85);
   visibility: collapse;
+}
+
+.visible {
+  visibility:visible;
 }
 
 .card__tag-wrapper {

@@ -14,67 +14,91 @@
         <h1 class="h1-handwriting">Quiz-App</h1>
       </nav>
     </header>
+    <!-- FIRST CARD -->
     <section class="card">
       <h2>Question:</h2>
-      <p class="card__question">Who is responsible for all your problems?</p>
-      <button class="button button--answer">Show answer</button>
-      <div class="card__answer">Everyone but you.</div>
+      <p class="card__question">Who is responsible for all your problmes?</p>
+      <button data-js="buttonAnswer" class="button button--answer">
+        Show answer
+      </button>
+      <div data-js="cardAnswer" class="card__answer">Everyone but you.</div>
       <div class="card__tag-wrapper">
-        <a class="card__tag" href="">Tag one</a><a class="card__tag" href="">Tag two</a
-        ><a class="card__tag" href="">Tag three</a><a class="card__tag" href="">Tag Four</a>
-        <img
-          class="card__bookmark"
-          src="/images/lesezeichen-96 white.png"
-          alt="Bookmark"
-        />
+        <a class="card__tag" href="">Tag one</a
+        ><a class="card__tag" href="">Tag two</a
+        ><a class="card__tag" href="">Tag three</a
+        ><a class="card__tag" href="">Tag Four</a>
+        <div class="bookmarkButton" data-js="bookmarkButton">
+          <a data-js="cardBookmark" class="card__bookmark"></a>
+        </div>
       </div>
     </section>
+    <!--CARD -->
     <section class="card">
       <h2>Question:</h2>
       <p class="card__question">When is Code Cubain's birthday?</p>
-      <button class="button button--answer">Show answer</button>
-      <div class="card__answer">1st April.</div>
+      <button data-js="buttonAnswer" class="button button--answer">
+        Show answer
+      </button>
+      <div data-js="cardAnswer" class="card__answer">1st April.</div>
       <div class="card__tag-wrapper">
-        <a class="card__tag" href="">Tag one</a><a class="card__tag" href="">Tag two</a
-        ><a class="card__tag" href="">Tag three</a><a class="card__tag" href="">Tag Four</a>
-        <img
-          class="card__bookmark"
-          src="/images/lesezeichen-96.png"
-          alt="Bookmark"
-        />
+        <a class="card__tag" href="">Tag one</a
+        ><a class="card__tag" href="">Tag two</a
+        ><a class="card__tag" href="">Tag three</a
+        ><a class="card__tag" href="">Tag Four</a>
+        <div class="bookmarkButton" data-js="bookmarkButton">
+          <a data-js="cardBookmark" class="card__bookmark"></a>
+        </div>
       </div>
     </section>
+    <!-- CARD -->
     <section class="card">
       <h2>Question:</h2>
-      <p class="card__question">Why is ?</p>
-      <button class="button button--answer">Show answer</button>
-      <div class="card__answer">1st April.</div>
+      <p class="card__question">Why is lorem so much ipsum?</p>
+      <button data-js="buttonAnswer" class="button button--answer">
+        Show answer
+      </button>
+      <div data-js="cardAnswer" class="card__answer">
+        Becaues ipsum sit dolor amet lorem.
+      </div>
       <div class="card__tag-wrapper">
-        <a class="card__tag" href="">Tag one</a><a class="card__tag" href="">Tag two</a
-        ><a class="card__tag" href="">Tag three</a><a class="card__tag" href="">Tag Four</a>
-        <img
-          class="card__bookmark"
-          src="/images/lesezeichen-96 white.png"
-          alt="Bookmark"
-        />
+        <a class="card__tag" href="">Tag one</a
+        ><a class="card__tag" href="">Tag two</a
+        ><a class="card__tag" href="">Tag three</a
+        ><a class="card__tag" href="">Tag Four</a>
+        <div class="bookmarkButton" data-js="bookmarkButton">
+          <a data-js="cardBookmark" class="card__bookmark"></a>
+        </div>
       </div>
     </section>
     <footer>
       <nav class="nav nav--bottom">
-        <a href=""
-          ><img class="nav-icon" src="./images/zuhause-144.png" alt="home"
+        <a href="/"
+          ><img
+            class="nav-icon"
+            src="./images/zuhause-144.png"
+            alt="home"
+            title="home"
         /></a>
         <a href=""
-          ><img class="nav-icon" src="./images/lesezeichen-96.png" alt="home"
+          ><img
+            class="nav-icon"
+            src="./images/lesezeichen-96.png"
+            alt="bookmarks"
+            title="bookmarks"
         /></a>
         <a href=""
-          ><img class="nav-icon" src="./images/neue-datei white.png" alt="home"
+          ><img
+            class="nav-icon"
+            src="./images/neue-datei white.png"
+            alt="new"
+            title="create new"
         /></a>
         <a href=""
           ><img
             class="nav-icon"
             src="./images/katze-im-profil-90.png"
-            alt="home"
+            alt="profile"
+            title="profile"
         /></a>
       </nav>
     </footer>
