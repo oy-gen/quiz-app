@@ -2,8 +2,5 @@
 @import url("/design-system/anchor/anchor.css");
 @import url("/design-system/button/button.css");
 @import url("/design-system/card/card.css");
-@import url("/design-system/headline/headline.css");
 @import url("/design-system/navigation/nav.css");
-@import url("/design-system/tag/tag.css");
-
-/* comment with command shift 7 */
+@import url("/base.css");
