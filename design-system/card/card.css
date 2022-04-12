@@ -46,24 +46,25 @@ h2 {
 }
 
 .card__answer {
-  background-color: rgba(255, 255, 255, 0.542);
+  background-color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px 15px;
   border-radius: 5px;
   margin: 10px 0;
   font-family: Poppins;
   color: rgb(87, 85, 85);
-  visibility: collapse;
+  display: none;
 }
 
-.visible {
-  visibility:visible;
+.card__answer--visible {
+  display: block;
 }
 
 .card__tag-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 10px;
   justify-content: space-around;
   align-content: center;
   text-align: center;
