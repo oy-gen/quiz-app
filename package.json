@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "a small quiz app to learn web technologies",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oy-gen/quiz-app.git"
+  },
+  "author": "Eugen Dirksen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oy-gen/quiz-app/issues"
+  },
+  "homepage": "https://github.com/oy-gen/quiz-app#readme"
+}
