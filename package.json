@@ -4,6 +4,7 @@
   "description": "a small quiz app to learn web technologies",
   "main": "index.html",
   "scripts": {
+    "prettier": "prettier --write",
     "eslint": "eslint \"**/*.js\"",
     "stylelint": "stylelint \"**/*.css\"",
     "htmlhint": "htmlhint \"**/*.html\"",
@@ -23,9 +24,11 @@
   "devDependencies": {
     "eslint": "^8.13.0",
     "htmlhint": "^1.1.4",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "2.6.2",
     "stylelint": "^14.6.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^25.0.0",
-    "husky": "^7.0.0"
+    "stylelint-config-standard": "^25.0.0"
   }
 }
