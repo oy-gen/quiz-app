@@ -4,7 +4,11 @@
   "description": "a small quiz app to learn web technologies",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint \"**/*.js\"",
+    "stylelint": "stylelint \"**/*.css\"",
+    "htmlhint": "htmlhint \"**/*.html\"",
+    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,11 @@
   },
   "homepage": "https://github.com/oy-gen/quiz-app#readme",
   "devDependencies": {
-    "htmlhint": "^1.1.4"
+    "eslint": "^8.13.0",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^14.6.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "husky": "^7.0.0"
   }
 }

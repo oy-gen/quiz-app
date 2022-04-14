@@ -4,6 +4,7 @@
   box-sizing: border-box;
   _outline: 1px solid red;
 }
+
 html {
   font-size: 16px;
 }
@@ -16,7 +17,6 @@ body {
   max-width: 800px;
   margin: 80px auto;
   gap: 20px;
-
 }
 
 @media (min-width: 1000px) {

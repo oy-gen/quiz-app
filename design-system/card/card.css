@@ -13,7 +13,7 @@
 }
 
 .card__bookmark {
-  background-image: url("/images/lesezeichen-96.png ");
+  background-image: url('/images/lesezeichen-96.png ');
   width: 50px;
   height: 50px;
   background-size: 50px;
@@ -24,12 +24,12 @@
 }
 
 .card__bookmark--set {
-  background-image: url("/images/lesezeichen-96\ white.png ");
+  background-image: url('/images/lesezeichen-96\ white.png ');
 }
 
 h2 {
   margin: -10px 0 0 0;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 24px;
   color: rgb(119, 119, 119);
@@ -41,7 +41,7 @@ h2 {
   padding: 10px 15px;
   border-radius: 5px;
   margin: 10px 0;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   color: rgb(87, 85, 85);
 }
 
@@ -51,7 +51,7 @@ h2 {
   padding: 10px 15px;
   border-radius: 5px;
   margin: 10px 0;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   color: rgb(87, 85, 85);
   display: none;
 }
@@ -75,7 +75,7 @@ h2 {
   padding: 5px 10px;
   border-radius: 5px;
   flex-grow: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 300;
   font-size: 12px;
 }
