@@ -3,10 +3,10 @@ const buttonAnswer = document.querySelector('[data-js="buttonAnswer"]');
 
 const bookmarkToggle = document.querySelector('[data-js="bookmarkToggle"]');
 
-buttonAnswer.addEventListener("click", () => {
-  cardAnswer.classList.toggle("card__answer--visible");
+buttonAnswer.addEventListener('click', () => {
+  cardAnswer.classList.toggle('card__answer--visible');
 });
 
-bookmarkToggle.addEventListener("click", () => {
-  bookmarkToggle.classList.toggle("card__bookmark--set");
+bookmarkToggle.addEventListener('click', () => {
+  bookmarkToggle.classList.toggle('card__bookmark--set');
 });

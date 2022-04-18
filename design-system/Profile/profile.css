@@ -1,0 +1,32 @@
+.profile-pic {
+  width: 30vw;
+  max-width: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic__wrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.h2--white {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+.profile-text {
+  text-align: left;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-family: Poppins, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.h2--white--small {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
