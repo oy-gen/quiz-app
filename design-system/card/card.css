@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 40px 0;
+  margin: 30px 0;
   padding: 30px;
   gap: 15px;
   background-color: rgb(221, 221, 221);
@@ -10,6 +10,12 @@
   border-radius: 10px;
   border: 1px solid rgb(95, 93, 105);
   box-shadow: 7px 3px 13px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .card__bookmark {
@@ -27,11 +33,10 @@
   background-image: url('/images/lesezeichen-96\ white.png ');
 }
 
-h2 {
-  margin: -10px 0 0 0;
+.h2 {
   font-family: Poppins, sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(119, 119, 119);
 }
 

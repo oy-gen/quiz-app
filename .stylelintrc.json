@@ -3,6 +3,8 @@
   "rules": {
     "color-function-notation": null,
     "alpha-value-notation": null,
-    "selector-class-pattern": null
+    "selector-class-pattern": null,
+    "shorthand-property-no-redundant-values": null,
+    "length-zero-no-unit": null
   }
 }
