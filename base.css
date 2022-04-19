@@ -24,3 +24,12 @@ body {
     margin: 140px auto;
   }
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.page--hidden {
+  display: none;
+}

@@ -11,92 +11,153 @@
   <body>
     <header>
       <nav class="nav nav--top">
-        <h1 class="h1-handwriting">Quiz-App</h1>
+        <h1 class="h1-handwriting" data-js="navHeadline">Quiz-App</h1>
       </nav>
     </header>
-    <!-- FIRST CARD -->
-    <section class="card">
-      <h2 class="h2">Question:</h2>
-      <p class="card__question">Who is responsible for all your problmes?</p>
-      <button data-js="buttonAnswer" class="button button--answer">
-        Show answer
-      </button>
-      <div data-js="cardAnswer" class="card__answer">Everyone but you.</div>
-      <div class="card__tag-wrapper">
-        <a class="card__tag" href="">Tag one</a>
-        <a class="card__tag" href="">Tag two</a>
-        <a class="card__tag" href="">Tag three</a>
-        <a class="card__tag" href="">Tag Four</a>
-      </div>
-      <a data-js="bookmarkToggle" class="card__bookmark"></a>
-    </section>
-    <!--CARD -->
-    <section class="card">
-      <h2 class="h2">Question:</h2>
-      <p class="card__question">When is Code Cubain's birthday?</p>
-      <button data-js="buttonAnswer" class="button button--answer">
-        Show answer
-      </button>
-      <div data-js="cardAnswer" class="card__answer">1st April.</div>
-      <div class="card__tag-wrapper">
-        <a class="card__tag" href="">Tag one</a
-        ><a class="card__tag" href="">Tag two</a
-        ><a class="card__tag" href="">Tag three</a
-        ><a class="card__tag" href="">Tag Four</a>
-      </div>
-      <a data-js="bookmarkToggle" class="card__bookmark"></a>
-    </section>
-    <!-- CARD -->
-    <section class="card">
-      <h2 class="h2">Question:</h2>
-      <p class="card__question">Why is lorem so much ipsum?</p>
-      <button data-js="buttonAnswer" class="button button--answer">
-        Show answer
-      </button>
-      <div data-js="cardAnswer" class="card__answer">
-        Becaues ipsum sit dolor amet lorem.
-      </div>
-      <div class="card__tag-wrapper">
-        <a class="card__tag" href="">Tag one</a
-        ><a class="card__tag" href="">Tag two</a
-        ><a class="card__tag" href="">Tag three</a
-        ><a class="card__tag" href="">Tag Four</a>
-      </div>
-      <a data-js="bookmarkToggle" class="card__bookmark"></a>
-    </section>
-    <footer>
-      <nav class="nav nav--bottom">
-        <a href="/index.html"
-          ><img
-            class="nav-icon"
-            src="/images/zuhause-144.png"
-            alt="home"
-            title="home"
-        /></a>
-        <a href="/bookmarks/index.html"
-          ><img
-            class="nav-icon"
-            src="/images/lesezeichen-96.png"
-            alt="bookmarks"
-            title="bookmarks"
-        /></a>
-        <a href="/create/index.html"
-          ><img
-            class="nav-icon"
-            src="/images/neue-datei white.png"
-            alt="new"
-            title="create new"
-        /></a>
-        <a href="/profile/index.html"
-          ><img
-            class="nav-icon"
-            src="/images/katze-im-profil-90.png"
-            alt="profile"
-            title="profile"
-        /></a>
-      </nav>
-    </footer>
-    <!-- JavaScript -->
-    <script src="/main.js"></script>
+    <main>
+      <!-- PAGE HOME -->
+      <section data-js="pageHome" class="page">
+        <!-- FIRST CARD -->
+        <section class="card" data-js="card">
+          <h2 class="h2">Question:</h2>
+          <p class="card__question">
+            Who is responsible for all your problmes?
+          </p>
+          <button data-js="buttonAnswer" class="button button--answer">
+            Show answer
+          </button>
+          <div data-js="cardAnswer" class="card__answer">Everyone but you.</div>
+          <div class="card__tag-wrapper">
+            <a class="card__tag" href="">Tag one</a>
+            <a class="card__tag" href="">Tag two</a>
+            <a class="card__tag" href="">Tag three</a>
+            <a class="card__tag" href="">Tag Four</a>
+          </div>
+          <a data-js="bookmarkToggle" class="card__bookmark"></a>
+        </section>
+        <!--CARD -->
+        <section class="card" data-js="card">
+          <h2 class="h2">Question:</h2>
+          <p class="card__question">When is Code Cubain's birthday?</p>
+          <button data-js="buttonAnswer" class="button button--answer">
+            Show answer
+          </button>
+          <div data-js="cardAnswer" class="card__answer">1st April.</div>
+          <div class="card__tag-wrapper">
+            <a class="card__tag" href="">Tag one</a
+            ><a class="card__tag" href="">Tag two</a
+            ><a class="card__tag" href="">Tag three</a
+            ><a class="card__tag" href="">Tag Four</a>
+          </div>
+          <a data-js="bookmarkToggle" class="card__bookmark"></a>
+        </section>
+        <!-- CARD -->
+        <section class="card" data-js="card">
+          <h2 class="h2">Question:</h2>
+          <p class="card__question">Why is lorem so much ipsum?</p>
+          <button data-js="buttonAnswer" class="button button--answer">
+            Show answer
+          </button>
+          <div data-js="cardAnswer" class="card__answer">
+            Becaues ipsum sit dolor amet lorem.
+          </div>
+          <div class="card__tag-wrapper">
+            <a class="card__tag" href="">Tag one</a
+            ><a class="card__tag" href="">Tag two</a
+            ><a class="card__tag" href="">Tag three</a
+            ><a class="card__tag" href="">Tag Four</a>
+          </div>
+          <a data-js="bookmarkToggle" class="card__bookmark"></a>
+        </section>
+      </section>
+      <!-- PAGE BOOKMARK -->
+      <section data-js="pageBookmark" class="page page--hidden">
+        <div></div>
+      </section>
+      <!-- PAGE NEW -->
+      <section data-js="pageNew" class="page page--hidden">
+        <div class="card card__create">
+          <form class="card__form" action="">
+            <label class="h2" for="Add a question">Add a question:</label>
+            <textarea
+              name="Question"
+              id="question"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <label class="h2" for="answer">Add an answer:</label>
+            <textarea name="Answer" id="answer" cols="30" rows="10"></textarea>
+            <label class="h2" for="lname">Add tags:</label>
+            <textarea name="Submit" id="submit" cols="30" rows="10"></textarea>
+            <input class="button" type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+      <!-- PAGE PROFILE -->
+      <section data-js="pageProfile" class="page page--hidden">
+        <div class="profile-pic__wrapper">
+          <img
+            class="profile-pic"
+            src="/images/franzbrotchen.jpeg"
+            alt="Franz"
+          />
+          <h2 class="h2 h2--white">Franz Brötchen</h2>
+        </div>
+        <p class="profile-text">
+          Who is responsible for all your problmes? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Cupiditate in suscipit, quaerat quisquam
+          temporibus sit minus saepe illum magnam tempora consequatur laborum
+          exercitationem corrupti, debitis dignissimos ad deleniti consectetur?
+          Amet?
+        </p>
+        <h2 class="h2 h2--white--small">Tags about skills</h2>
+        <div class="card__tag-wrapper">
+          <a class="card__tag card__tag--white" href="">Tag one</a
+          ><a class="card__tag card__tag--white" href="">Tag two</a
+          ><a class="card__tag card__tag--white" href="">Tag three</a>
+        </div>
+        <button data-js="logout" class="button button--logout">Logout</button>
+      </section>
+
+      <!-- NAV-->
+      <footer>
+        <nav class="nav nav--bottom">
+          <div data-js="navHome">
+            <img
+              class="nav-icon"
+              src="/images/zuhause-144.png"
+              alt="home"
+              title="home"
+            />
+          </div>
+          <div data-js="navBookmark">
+            <img
+              class="nav-icon"
+              src="/images/lesezeichen-96.png"
+              alt="bookmarks"
+              title="bookmarks"
+            />
+          </div>
+          <div data-js="navNew">
+            <img
+              class="nav-icon"
+              src="/images/neue-datei white.png"
+              alt="new"
+              title="create new"
+            />
+          </div>
+          <div data-js="navProfile">
+            <img
+              class="nav-icon"
+              src="/images/katze-im-profil-90.png"
+              alt="profile"
+              title="profile"
+            />
+          </div>
+        </nav>
+      </footer>
+      <!-- JavaScript -->
+      <script src="./js/main.js" type="module"></script>
+    </main>
   </body>
 </html>
